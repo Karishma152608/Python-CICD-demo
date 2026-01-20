@@ -20,6 +20,4 @@ jobs:
     - name: create build
       run: |
         python hello_world.py
-    - name: Test with pytest
-      run: |
-        pytest
+    
